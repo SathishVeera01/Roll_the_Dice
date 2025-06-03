@@ -14,10 +14,10 @@ function rolldice() {
     document.querySelector("h1").innerHTML = "🏴Player 1 Wins!";
     p1score++;
   } else if (random2 > random1) {
-    document.querySelector("h1").innerHTML = " 🚩Player 2 Wins!";
+    document.querySelector("h1").innerHTML = "🏳️Player 2 Wins!";
     p2score++;
   } else {
-    document.querySelector("h1").innerHTML = "Draw!";
+    document.querySelector("h1").innerHTML = "🏴Draw!🏳️";
   }
   document.getElementById("player1").innerHTML = "player 1 score: " + p1score;
   document.getElementById("player2").innerHTML = "player 1 score: " + p2score;
@@ -35,9 +35,9 @@ function winner() {
     document.querySelector("h1").innerHTML = "🏴Winner:-Player 1!🏴";
     p1score++;
   } else if (p2score > p1score) {
-    document.querySelector("h1").innerHTML = "🚩Winner:-Player 2!🚩";
+    document.querySelector("h1").innerHTML = "🏳️Winner:-Player 2!🏳️";
     p2score++;
   } else {
-    document.querySelector("h1").innerHTML = "🏳️Draw!🏳️";
+    document.querySelector("h1").innerHTML = "🏴Draw!🏳️";
   }
 }
