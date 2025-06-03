@@ -20,7 +20,6 @@ h1 {
   text-shadow: 5px 0 #232931;
   font-size: 8rem;
   color: #4ecca3;
-  white
 }
 
 p,
@@ -35,12 +34,6 @@ img {
   width: 80%;
 }
 
-footer {
-  margin-top: 5%;
-  color: #eeeeee;
-  text-align: center;
-  font-family: "Indie Flower", cursive;
-}
 .cont {
   display: flex;
   justify-content: center;
@@ -82,6 +75,5 @@ button {
   }
   h1{
     font-size:24px;
-    white-space:nowrap;
   }
 }
