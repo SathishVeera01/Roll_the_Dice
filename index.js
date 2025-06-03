@@ -11,7 +11,7 @@ function rolldice() {
   document.getElementsByClassName("img2")[0].setAttribute("src", img2);
 
   if (random1 > random2) {
-    document.querySelector("h1").innerHTML = "🚩 Play 1 Wins!";
+    document.querySelector("h1").innerHTML = "🚩 Player 1 Wins!";
     p1score++;
   } else if (random2 > random1) {
     document.querySelector("h1").innerHTML = "Player 2 Wins! 🚩";
@@ -28,7 +28,7 @@ function reset() {
   p1score = 0;
   p2score = 0;
   document.getElementById("player1").innerHTML = "player 1 score: " + p1score;
-  document.getElementById("player2").innerHTML = "player 1 score: " + p2score;
+  document.getElementById("player2").innerHTML = "player 2 score: " + p2score;
 }
 function winner() {
   if (p1score > p2score) {
