@@ -1,0 +1,81 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+}
+
+body {
+  background-color: #393e46;
+}
+
+h1 {
+  margin: 30px;
+  font-family: "Lobster", cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ecca3;
+}
+
+p,
+#player1,
+#player2 {
+  font-size: 2rem;
+  color: #4ecca3;
+  font-family: "Indie Flower", cursive;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #eeeeee;
+  text-align: center;
+  font-family: "Indie Flower", cursive;
+}
+.cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+#player1,
+#player2 {
+  margin: 0px 20px 0px 50px;
+}
+button {
+  font-size: 1.2rem;
+  padding: 0.8rem 1.5rem;
+  color: #4ecca3;
+  font-weight: bold;
+  background-color: #393e46;
+  border-radius: 1.5rem;
+  font-family: "Indie Flower", cursive;
+  border-color: azure;
+}
+.btn {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+.row {
+  display: flex;
+  justify-content: center;
+}
+@media (min-width: 770px) {
+  .row {
+    display: flex;
+    justify-content: center;
+    gap: 15rem;
+  }
+}
