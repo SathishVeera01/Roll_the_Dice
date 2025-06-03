@@ -24,7 +24,7 @@ function rolldice() {
 }
 
 function reset() {
-  document.querySelector("h1").innerHTML = "<h1>Roll the dice </h1>";
+  document.querySelector("h1").innerHTML = "Roll the dice";
   p1score = 0;
   p2score = 0;
   document.getElementById("player1").innerHTML = "player 1 score: " + p1score;
