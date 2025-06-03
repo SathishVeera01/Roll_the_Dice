@@ -32,10 +32,10 @@ function reset() {
 }
 function winner() {
   if (p1score > p2score) {
-    document.querySelector("h1").innerHTML = "🏴Winner:-Player 1!🏴";
+    document.querySelector("h1").innerHTML = "🏴Winner:Player 1!🏴";
     p1score++;
   } else if (p2score > p1score) {
-    document.querySelector("h1").innerHTML = "🏳️Winner:-Player 2!🏳️";
+    document.querySelector("h1").innerHTML = "🏳️Winner:Player 2!🏳️";
     p2score++;
   } else {
     document.querySelector("h1").innerHTML = "🏴Draw!🏳️";
