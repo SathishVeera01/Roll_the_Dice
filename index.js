@@ -41,3 +41,9 @@ function winner() {
     document.querySelector("h1").innerHTML = "🏴Draw!🏳️";
   }
 }
+
+function hide(){
+  document.getElementById("player1").style.visibility="hidden";
+  document.getElementById("player2").style.visibility = "hidden";
+
+}
