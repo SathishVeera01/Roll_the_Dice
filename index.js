@@ -20,7 +20,7 @@ function rolldice() {
     document.querySelector("h1").innerHTML = "🏴Draw!🏳️";
   }
   document.getElementById("player1").innerHTML = "player 1 score: " + p1score;
-  document.getElementById("player2").innerHTML = "player 1 score: " + p2score;
+  document.getElementById("player2").innerHTML = "player 2 score: " + p2score;
 }
 
 function reset() {
