@@ -67,9 +67,6 @@ button {
   display: flex;
   justify-content: center;
 }
-.hidden{
-  visibility: hidden;
-}
 @media (min-width: 770px) {
   .row {
     display: flex;
@@ -79,5 +76,7 @@ button {
   h1{
     font-size:8rem;
   }
-
+}
+.hidden{
+  visibility: hidden;
 }
