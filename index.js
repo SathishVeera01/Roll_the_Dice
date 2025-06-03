@@ -43,7 +43,13 @@ function winner() {
 }
 
 function hide(){
-  document.getElementById("player1").style.visibility="hidden";
-  document.getElementById("player2").style.visibility = "hidden";
-
+  document.getElementById("player1").classList.toggle("hidden");
+  document.getElementById("player2").classList.toggle("hidden");
+  if(document.getElementById("hid").innerHTML==="Hide Score"){
+    document.getElementById("hid").innerHTML="Unhide Score";
+  }
+  else{
+    document.getElementById("hid").innerHTML = "Hide Score";
+  }
 }
+
